@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67cd8fbe00ec46b0952f6b083de59335, type: 3}
+  m_Name: CatConfig
+  m_EditorClassIdentifier: 
+  _catPrefab: {fileID: 1853687351541994904, guid: 8b5ca397024ade841a1fe01e9e2c93bc,
+    type: 3}
+  _idleTimer: 10
+  _moveSpeed: 3
+  _moveDistance: 8
+  _moveTimer: 10
+  stopDistance: 0.9
+  _eatTimer: 3
+  _sleepTimer: 5
+  _makeToileteTimer: 5
+  _trainingTimer: 5
+  _washTimer: 5
+  _wishes:
+  - _wishType: 1
+    _wishSprite: {fileID: 21300000, guid: 09929389b6982d34f90eb3bf1eac8cd1, type: 3}
+  - _wishType: 2
+    _wishSprite: {fileID: 21300000, guid: a0d0cb7f48693544fbf95c7cffbb58ff, type: 3}
+  - _wishType: 3
+    _wishSprite: {fileID: 21300000, guid: cedc24f028c25bb4b94b0d9c95cbb4ff, type: 3}
+  - _wishType: 4
+    _wishSprite: {fileID: 21300000, guid: b327d50fda228d249ab77acc4a5369ca, type: 3}
+  - _wishType: 12
+    _wishSprite: {fileID: 21300000, guid: 0a6faf327e64ceb4a8ea0a145a47e291, type: 3}
+  - _wishType: 5
+    _wishSprite: {fileID: 21300000, guid: 1396c9072c2298a4d9403d3c1758325e, type: 3}
+  - _wishType: 6
+    _wishSprite: {fileID: 21300000, guid: 22a676083c62e744cbaf118fe53ebcab, type: 3}
